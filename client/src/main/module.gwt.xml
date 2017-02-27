@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='GwtSpringSecurity'>     
+  <inherits name='com.google.gwt.user.User' />     
+  <inherits name='com.google.gwt.place.Place'/>
+   <inherits name='com.google.gwt.activity.Activity' />                   
+  <inherits name="com.vaadin.polymer.Elements"/>
+  <inherits name="com.google.gwt.http.HTTP"/>
+   <replace-with class="com.iqmsoft.gwt.spring.security.client.ClientFactoryImpl">
+    <when-type-is class="com.iqmsoft.gwt.spring.security.client.ClientFactory"/>
+   </replace-with>
+  <entry-point class='com.iqmsoft.gwt.spring.security.client.GwtSpringSecurity' />
+  <source path='client' />
+  <source path='ui' />
+   <source path='places' />
+   <source path='activities' />
+</module>

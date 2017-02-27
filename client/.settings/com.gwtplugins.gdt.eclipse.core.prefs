@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+gwtMavenModuleName=com.iqmsoft.gwt.spring.security.GwtSpringSecurity
+gwtMavenModuleShortName=GwtSpringSecurity
+lastWarOutDir=/home/iqmsoft/gwt/gwt-spring-security/client/target/client-0.1
+warSrcDir=src/main/webapp
+warSrcDirIsOutput=false
